@@ -9,6 +9,11 @@ alert(fistString+" "+secondString+" "+theeString);
 //if(fistString || secondString || theeString){
 //  alert(fistString.concat(secondString).concat(theeString));
 // }
+
+//three example
+ //if(fistString || secondString || theeString){
+ // alert(`${fistString} ${secondString} ${theeString}`);
+// }
 //first example
 const number = prompt("Set please number with 5 digits")
 let array = [...number.toString()].map(Number);
