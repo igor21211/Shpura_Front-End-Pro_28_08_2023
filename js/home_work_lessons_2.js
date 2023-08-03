@@ -17,13 +17,22 @@ alert(fistString+" "+secondString+" "+theeString);
 //first example
 const number = prompt("Set please number with 5 digits")
 let array = [...number.toString()].map(Number);
-alert(array.toString())
+if(array){
+    alert(array.toString())
+}
 
 //Second example
 const number2 = prompt("Set please number with 5 digits")
 let results = number2.toString();
-for (let index = 0; index < results.length; index++) {
-    const element = results[index];
-    alert(element);
+if(results){
+        for (let index = 0; index < results.length; index++) {
+            const element = results[index];
+            alert(element);
+    }
 }
-
+//three example
+const number3 = prompt("Set please number with 5 digits")
+let results2 = number3.toString().split("").join(" ");
+if(results2){
+    alert(results2)
+}
