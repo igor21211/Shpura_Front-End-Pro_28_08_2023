@@ -21,7 +21,7 @@ switch (action) {
         break;
 }
 }else{
-    alert("You are cancel!!")
+    alert("You are cancel!! when you must set you number")
 }
 }else{
     alert("You are cancel something action or number")
