@@ -1,36 +1,10 @@
-const fistString = prompt("What is your name?");
-const secondString = prompt("How Old are you?");
-const theeString = prompt("What language of programing do you love?")
+const username = prompt("What is your name?");
+const age = prompt("How Old are you?");
+const language = prompt("What language of programing do you love?")
 //first example
-if(fistString || secondString || theeString){
-alert(fistString+" "+secondString+" "+theeString);
+if(username || age || language){
+alert(username+" "+age+" "+language);
 }
-//second example
-//if(fistString || secondString || theeString){
-//  alert(fistString.concat(secondString).concat(theeString));
-// }
-
-//three example
- //if(fistString || secondString || theeString){
- // alert(`${fistString} ${secondString} ${theeString}`);
-// }
-//first example
-const number = prompt("Set please number with 5 digits")
-let array = [...number.toString()].map(Number);
-if(array){
-    alert(array.toString())
-}
-
-//Second example
-const number2 = prompt("Set please number with 5 digits")
-let results = number2.toString();
-if(results){
-        for (let index = 0; index < results.length; index++) {
-            const element = results[index];
-            alert(element);
-    }
-}
-//three example
 const number3 = prompt("Set please number with 5 digits")
 let results2 = number3.toString().split("").join(" ");
 if(results2){
