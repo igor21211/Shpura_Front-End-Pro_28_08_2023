@@ -13,7 +13,7 @@ switch (action) {
     case 'mult':
         alert(firstNumber+''+' * '+''+secondNumber+''+' = '+ firstNumber*secondNumber)
         break;
-    case 'mult':
+    case 'div':
         alert(firstNumber+''+' / '+''+secondNumber+''+' = '+ firstNumber/secondNumber)
         break;
     default:
